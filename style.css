@@ -61,15 +61,15 @@ header {
 }
 
 .logo {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--text-light);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    width: 150px; /* sesuaikan dengan ukuran logo */
+    height: 50px; /* sesuaikan dengan ukuran logo */
+    background-image: url('images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px; /* menyembunyikan teks */
+    overflow: hidden;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
